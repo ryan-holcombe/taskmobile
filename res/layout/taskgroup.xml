@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+    <TextView
+       android:id="@+id/taskGroupText"
+       android:layout_width="fill_parent" android:layout_height="wrap_content"
+       android:textColor="#000000" android:padding="8dip"
+       android:textStyle="bold"
+       android:gravity="top|center_horizontal" />
+    <com.honeydothis.HorizontalPager
+       android:id="@+id/horizontal_pager"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent">
+    </com.honeydothis.HorizontalPager>
+</LinearLayout>
